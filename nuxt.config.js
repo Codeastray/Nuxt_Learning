@@ -43,4 +43,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  layouts: {
+    // Path of your layouts directory
+    default: '~/layouts/default.vue'
+  }
 }
